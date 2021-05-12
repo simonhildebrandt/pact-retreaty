@@ -86,7 +86,7 @@ end
 
 The name, version and S3 configurations are identical to the consumer side - the only provider-specific configuration is that we help Retreaty find the right contract by specifying the filename, and we provide a series of options to find the right branch. This deserves some explanation...
 
-###VCS Fallbacks
+### VCS Fallbacks
 
 Over the lifetime of our Pact testing, we'll want to verify various versions of the consumer against a variety of versions of the provider. We have a few mechanisms in place to facilitate this; on the consumer side we track both the 'version' and the 'VCS id' (version control id - usually a branch name) of the current build, and on the provider side we keep a list of options (in order of decreasing specificity) for which of the consumer's VCS ids we'd like to test against. Tracking the branch of the consumer protects us while we're modifying it, so that new versions of the contract don't overwrite the existing stable one - it also frees us from having to change the version for small bug fixes, or during the code review process.
 
