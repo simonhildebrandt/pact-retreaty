@@ -7,11 +7,11 @@ Gem::Specification.new do |spec|
   spec.name          = "pact-retreaty"
   spec.version       = Pact::Retreaty::VERSION
   spec.authors       = ["Simon Hildebrandt"]
-  spec.email         = ["simonhildebrandt@fairfaxmedia.com.au"]
+  spec.email         = ["simonhildebrandt@gmail.com"]
 
   spec.summary       = %q{Easily share pacts via S3.}
   spec.description   = %q{Easily share pacts via S3.}
-  spec.homepage      = "https://github.com/fairfaxmedia/pact-retreaty"
+  spec.homepage      = "https://github.com/simonhildebrandt/pact-retreaty"
   spec.license       = "MIT"
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
