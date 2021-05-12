@@ -1,6 +1,6 @@
 # Pact::Retreaty
 
-[Pact](http://github.com/pact/pact) allows the recording of contracts between services and their consumers, but is agnostic about how those contracts are managed. [Retreaty](http://github.com/fairfacemedia/pact-retreaty) extends on that, to provides a ultra light mechanism for pushing these contracts to S3 from a consumer, and later pulling them down to a provider for verification.
+[Pact](http://github.com/pact/pact) allows the recording of contracts between services and their consumers, but is agnostic about how those contracts are managed. [Retreaty](http://github.com/simonhildebrandt/pact-retreaty) extends on that, to provides a ultra light mechanism for pushing these contracts to S3 from a consumer, and later pulling them down to a provider for verification.
 
 ## Installation
 
@@ -100,7 +100,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/fairfaxmedia/pact-retreaty.
+Bug reports and pull requests are welcome on GitHub at https://github.com/simonhildebrandt/pact-retreaty.
 
 
 ## License
